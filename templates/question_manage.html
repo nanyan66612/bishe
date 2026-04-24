@@ -1,0 +1,3 @@
+{% extends 'base.html' %}
+<a href="{% url 'question_add' %}">添加题目</a>
+{% for q in qs %}{{ q.title }}<br>{% endfor %}
