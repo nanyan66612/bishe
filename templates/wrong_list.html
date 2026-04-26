@@ -1,4 +1,0 @@
-{% extends 'base.html' %}
-{% for w in wrongs %}
-<a href="{% url 'practice_detail' w.question.id %}">{{ w.question.title }}</a><br>
-{% endfor %}
